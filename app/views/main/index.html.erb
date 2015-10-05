@@ -1,0 +1,31 @@
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<div id="session_init">
+	<div id="message_box">
+	"Please enter your credentials below"
+	</div>
+
+	<form>
+		Username <br>
+		<input type="text" id="username"> <br>
+		Password <br>
+		<input type="checkbox" id="check_pass">
+		<input type="password" id="password"> <br>
+	
+		<button type="button" id="btn_login"> Login </button>
+		<button type="button" id="btn_signup"> Add User </button>
+	<div id="error_msg_name">
+	</div>
+	<div id="error_msg_pass">
+	</div>
+	</form>
+</div>
+
+<div id="session_logout" hidden="true">
+
+Welcome <h1 id="wel_username"></h1> <br>
+You have logged in <h1 id="wel_count"></h1> <br>
+<button type="button" id="btn_logout"> Logout </button>
+
+</div>
